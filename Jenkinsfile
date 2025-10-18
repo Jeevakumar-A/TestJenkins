@@ -16,7 +16,7 @@ pipeline {
                 sh 'npm --version'
                 sh 'npm install'
                 sh 'npm run build'
-                sh 'ci'
+                sh 'npm ci'
                 sh 'ls -la'
             }
         }
